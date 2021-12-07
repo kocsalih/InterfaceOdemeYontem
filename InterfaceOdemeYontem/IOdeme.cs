@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace InterfaceOdemeYontem
 {
-    public interface IOdeme
+    interface IOdeme
     {
         void odemeSekliAyariYap();
         void odemeYap();

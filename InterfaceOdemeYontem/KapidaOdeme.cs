@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace InterfaceOdemeYontem 
 {
-    public class KapidaOdeme : Odeme, IOdeme
+    public class KapidaOdeme :Odeme, IOdeme
     {
         public string adi { get; set; }
         public string soyadi { get; set; }
@@ -16,7 +16,7 @@ namespace InterfaceOdemeYontem
 
         public void odemeSekliAyariYap()
         {
-            Console.WriteLine("Kapıda Ödeme-2");
+            Console.WriteLine("Kapıda Ödeme şekli-2");
         }
 
         public void odemeYap()

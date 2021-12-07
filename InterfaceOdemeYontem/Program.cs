@@ -33,14 +33,17 @@ namespace InterfaceOdemeYontem
             {
                 case 1:
 
-                 kredikartiileOde.OdemeTutariniKullanicidanAl();
+                    kredikartiileOde.OdemeTutariniKullanicidanAl();
+                    kredikartiileOde.odemeYap();
                     break;
 
                 case 2:
                     kapidapdeme.OdemeTutariniKullanicidanAl();
+                    kapidapdeme.odemeYap();
                     break;
                 case 3:
                     fastpayodeme.OdemeTutariniKullanicidanAl();
+                    fastpayodeme.odemeYap();
                     break;
                 default:
                     Console.WriteLine("Hatalı Giriş Yaptınız!!");

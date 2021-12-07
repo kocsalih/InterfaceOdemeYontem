@@ -32,7 +32,7 @@ namespace InterfaceOdemeYontem
 
 
             Random rnd = new Random();
-            int bekleme = rnd.Next(300, 500);
+            int bekleme = rnd.Next(2, 4);
             Console.WriteLine(bekleme);
             for (int i = 0; i < bekleme; i++)
             {
